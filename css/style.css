@@ -1,0 +1,84 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 10;
+    padding: 10; 
+    font-family: "Poppins", sans-serif;
+  }
+  
+ 
+  #menu { /*menu de navegação*/
+    background-color: #FFFF;
+    border-radius: 8px;
+    height: 110px;
+}
+
+#menu img{ /*icon*/
+    margin-left: 20px;
+    
+}
+
+
+
+  .nav-link { /*itens do menu de navegação*/
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: black !important; 
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  .nav-link:hover {
+    background-color: #fd288d;
+    color: white !important; 
+  }
+
+
+.inicial{ /*tentativa frustrada de colocar uma imagem de backgroud*/
+    background-image: url(assets/INICIAL.svg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+ .inicial h1 {
+    font-family: "Bebas Neue";
+    color: #3e0eb4;
+    font-size: 90px;
+    line-height: 1;
+    margin-top: 130px;
+    padding: 8px;
+   
+}    
+
+.inicial h2{
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 700;
+    color: #fd288d;
+    padding: 8px;
+    margin-top: -25px;
+    
+}
+
+
+.saibaMais{
+    margin: 20px;
+    margin-top: -220px;
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    background-color: #fd288d;
+    color: #FFFF;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    width: 250px;
+    padding: 6px;
+    letter-spacing: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+.saibaMais:hover {
+    background-color: #3e0eb4;
+    color: white !important; 
+  }
