@@ -1,10 +1,12 @@
 
 html, body {
-    height: 100%;
-    width: 100%;
-    margin: 10;
-    padding: 10; 
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+  font-family: "Poppins", sans-serif;
+
   }
   
  
@@ -22,59 +24,80 @@ html, body {
 
 
   .nav-link { /*itens do menu de navegação*/
-    padding: 15px 20px;
-    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
     color: black !important; 
     background-color: transparent;
     transition: background-color 0.3s ease, color 0.3s ease; 
+    font-size: 25px !important;
   }
   .nav-link:hover {
     background-color: #fd288d;
     color: white !important; 
   }
 
+  .inicial{
+    display: block;
+  }
 
-.inicial{ /*tentativa frustrada de colocar uma imagem de backgroud*/
-    background-image: url(assets/INICIAL.svg);
-    background-size: cover;
-    min-height: 100vh;
+.background{ /*imagem de fundo*/
+    background-image: url("../assets/INICIAL_FUNDO.svg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
 }
 
  .inicial h1 {
     font-family: "Bebas Neue";
     color: #3e0eb4;
-    font-size: 90px;
-    line-height: 1;
+    font-size: 109px;
     margin-top: 130px;
-    padding: 8px;
+    padding: 10px;
+    line-height: 0.9;
+    font-weight: 500;
+    background-color: transparent;
    
 }    
 
 .inicial h2{
     font-family: "Poppins";
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 700;
     color: #fd288d;
-    padding: 8px;
-    margin-top: -25px;
+    padding: 10px;
+    margin-top: -30px;
+    line-height: 1;
+    background-color: transparent;
     
+}
+
+.inicial img{
+  display: block;
+  align-items: center;
+  margin-top: -520px;
+  width: auto;
+  height: auto;
+  
+
 }
 
 
 .saibaMais{
-    margin: 20px;
-    margin-top: -220px;
+    margin: 150px;
+    margin-top: 100px;
     position: absolute;
     border: none;
-    border-radius: 20px;
+    border-radius: 40px;
     background-color: #fd288d;
     color: #FFFF;
     font-family: "Bebas Neue";
-    font-size: 25px;
-    width: 250px;
-    padding: 6px;
+    font-size: 30px;
+    width: 450px;
+    padding: 18px;
     letter-spacing: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: 0.3s ease, color 0.3s ease;
     
 }
 
@@ -82,3 +105,8 @@ html, body {
     background-color: #3e0eb4;
     color: white !important; 
   }
+
+
+  /* SOBRE NÓS */
+
+  
