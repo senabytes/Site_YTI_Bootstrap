@@ -1,8 +1,20 @@
-section#como-funciona {
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: fit-content;
   }
+
+
+
+section#como-funciona {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
   
   section div.titulo {
     display: flex;
@@ -21,13 +33,27 @@ section#como-funciona {
   }
   
   
-  section div.icones-texto {
-    align-items: center;
+  .icones-texto-row {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    width: 100%;
+}
+
+.icones-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     text-align: center;
-    margin: 0;
-    padding: 0;
+    max-width: 200px; 
+    max-height: 400px;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
     
-  }
+}
   
   
   
@@ -37,6 +63,7 @@ section#como-funciona {
     font-weight: 700;
     color: #3e0eb4;
     font-family: "Poppins", sans-serif;
+    line-height: 1rem;
   }
 
   
@@ -46,5 +73,10 @@ section#como-funciona {
     font-weight: 400;
     color: #426666;
     font-family: var(--font-roboto);
-    line-height: 22px;
+    line-height: 1rem;
+  }
+
+  .icones-texto img{
+    width: 250px;
+    margin-bottom: -5rem;
   }
