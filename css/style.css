@@ -49,6 +49,7 @@ html, body {
 .background{ /*imagem de fundo*/
     display: flex;
     flex-direction: column;
+    
     background-position: 100%;
     background-image: url("../assets/fundo_text2.svg");
     background-repeat: no-repeat;
@@ -113,11 +114,12 @@ html, body {
   
   
   section#como-funciona {
-    background: transparent;
+    background-color: #FFFF;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     min-height: 100vh;
   }
   
