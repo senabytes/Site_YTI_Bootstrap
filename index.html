@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 
 <head>
@@ -13,95 +13,70 @@
     <script src="js/bootstrap.js"></script>
 </head>
 
-<body class="background" >
- 
-    <!--navbar Classe do BootStrap que estiliza o elemento como 
-    barra de navegacao-->
-
+<body class="background">
+    
     <nav id="menu" class="navbar navbar-expand-lg fixed-top shadow-sm">
-        <a class="navbar-brand mx-auto d-flex align-items-center" href="#">
-            <img src="assets/logos_youtryit (2).svg" alt="YouTryIt" width="110">
-        </a>
-    
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/YouTryIt_Site/index.html">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre nós</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Como Funciona</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cadastre a sua marca</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Contato</a>
-                </li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logos_youtryit (2).svg" alt="YouTryIt" width="110">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/YouTryIt_Site/index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sobre nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Como Funciona</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Cadastre a sua marca</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     
-    
-        <!--TELA INICIAL -->
-    <section class="inicial">
+    <section class="inicial d-flex flex-column align-items-center text-center">
         <h1>PROVE ROUPAS QUE VIU ONLINE <br> NO CONFORTO DA SUA CASA</h1>
         <h2>O PROVADOR DA SUA LOJA FAVORITA <br> NA PALMA DA SUA MÃO</h2>
-       <!--BOTÃO SAIBA MAIS-->
         <button class="saibaMais">Saiba Mais</button>
     </section>
     
-
-    <!--COMO FUNCIONA-->
-   
-    <section id="como-funciona">
-        <div class="container">
-            <div class="titulo">
-                <span>COMO FUNCIONA</span>
-            </div>
+    <section id="como-funciona" class="container text-center py-5">
+        <div class="titulo">
+            <span>COMO FUNCIONA</span>
         </div>
-        <div class="icones-texto-row">
-            <div class="icones-texto col-2">
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-sm-6 icones-texto">
                 <img src="ICONES/1.svg" alt="cabide-escolha">
                 <span>Navegue pelos catálogos</span>
-                <p>selecione as peças que mais gostar</p>
+                <p>Selecione as peças que mais gostar</p>
             </div>
-            <div class="icones-texto col-2">
+            <div class="col-md-3 col-sm-6 icones-texto">
                 <img src="ICONES/2.svg" alt="sacola">
                 <span>Adicione as peças a sacola</span>
                 <p>Solicite a prova em casa através do app YouTryIt</p>
             </div>
-            <div class="icones-texto col-2">
+            <div class="col-md-3 col-sm-6 icones-texto">
                 <img src="ICONES/3.svg" alt="moto">
                 <span>Levamos as peças até você</span>
                 <p>A mottu vai até o endereço cadastrado e deixa as peças com você</p>
             </div>
-            <div class="icones-texto col-2">
+            <div class="col-md-3 col-sm-6 icones-texto">
                 <img src="ICONES/4.svg" alt="48hrs">
                 <span>Você tem 48hrs para decidir</span>
                 <p>São 48hrs para provar a peça e decidir se vai comprar ou não</p>
             </div>
-            <div class="icones-texto col-2">
+            <div class="col-md-3 col-sm-6 icones-texto">
                 <img src="ICONES/5.svg" alt="pagamento">
                 <span>Finalize a compra no app YouTryIt</span>
-                <p>O pagamento é feito depois que você provar somende se decidir ficar. Sem compromisso! </p>
+                <p>O pagamento é feito depois que você provar, somente se decidir ficar. Sem compromisso!</p>
             </div>
-            <div class="icones-texto col-2">
+            <div class="col-md-3 col-sm-6 icones-texto">
                 <img src="ICONES/6.svg" alt="devolução">
                 <span>Não gostou? Solicite a devolução</span>
-                <p>Sem custo adicional o retorno da peça é por nossa conta! Basta solicitar o retorno no app</p>
+                <p>Sem custo adicional, o retorno da peça é por nossa conta! Basta solicitar no app</p>
             </div>
         </div>
     </section>
-
-
 </body>
-
 </html>
